@@ -1,0 +1,51 @@
+<svg width="192" height="192" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGrad192" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="shadowGrad192" cx="50%" cy="50%" r="50%">
+      <stop offset="80%" style="stop-color:black;stop-opacity:0" />
+      <stop offset="100%" style="stop-color:black;stop-opacity:0.1" />
+    </radialGradient>
+    <linearGradient id="shineGrad192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:white;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:white;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:white;stop-opacity:0" />
+    </linearGradient>
+    <filter id="shadow192">
+      <feDropShadow dx="0" dy="1.92" stdDeviation="3.84" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="96" cy="96" r="86.4" fill="url(#bgGrad192)" />
+  
+  <!-- Inner shadow -->
+  <circle cx="96" cy="96" r="86.4" fill="url(#shadowGrad192)" />
+  
+  <!-- Main text -->
+  <text x="96" y="96" 
+        font-family="'Plus Jakarta Sans', -apple-system, sans-serif" 
+        font-size="76.80000000000001" 
+        font-weight="800" 
+        fill="white" 
+        text-anchor="middle" 
+        dominant-baseline="central"
+        filter="url(#shadow192)">JP</text>
+  
+  <!-- Subtitle -->
+  <text x="96" y="153.6" 
+        font-family="'Plus Jakarta Sans', -apple-system, sans-serif" 
+        font-size="23.04" 
+        font-weight="600" 
+        fill="white" 
+        fill-opacity="0.8" 
+        text-anchor="middle" 
+        dominant-baseline="central">N5</text>
+  
+  <!-- Shine overlay -->
+  <circle cx="96" cy="96" r="86.4" 
+          fill="url(#shineGrad192)" 
+          opacity="0.5" />
+</svg>

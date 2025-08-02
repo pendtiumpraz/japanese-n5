@@ -1,0 +1,7 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" fill="#2563eb"/>
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" 
+        fill="white" font-size="200" font-weight="bold" font-family="Arial">
+    あ
+  </text>
+</svg>

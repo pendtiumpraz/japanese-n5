@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JP N5 - Writing & Speaking</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="assets/css/reset.css"/>
+  <link rel="stylesheet" href="assets/css/styles.css"/>
+  <link rel="stylesheet" href="assets/css/themes.css"/>
+  <link rel="manifest" href="manifest.json"/>
+  <meta name="theme-color" content="#2563eb"/>
+  <link rel="apple-touch-icon" href="assets/icons/icon-192x192.png"/>
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand">
+      <span class="logo">あ</span>
+      <span class="title">JP N5</span>
+    </div>
+    <nav class="nav" id="mainNav">
+      <a href="#/" data-link>🏠 Home</a>
+      <a href="#/writing/kana" data-link>✍️ Kana</a>
+      <a href="#/writing/kanji" data-link>🈷 Kanji</a>
+      <a href="#/speaking" data-link>🗣️ Speaking</a>
+      <a href="#/vocab" data-link>📖 Kosakata</a>
+      <a href="#/grammar" data-link>📐 Grammar</a>
+      <a href="#/review" data-link>📊 Review</a>
+    </nav>
+    <div class="header-actions">
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle Tema">🌞</button>
+      <button id="menuToggle" class="icon-btn mobile-only" aria-label="Menu">☰</button>
+    </div>
+  </header>
+  
+  <!-- Mobile Navigation -->
+  <div id="mobileNav" class="mobile-nav">
+    <div class="mobile-nav-header">
+      <h3>Menu</h3>
+      <button id="closeMobileNav" class="icon-btn">✕</button>
+    </div>
+    <div class="mobile-nav-links">
+      <a href="#/" data-link>🏠 Home</a>
+      <a href="#/writing/kana" data-link>✍️ Writing Kana</a>
+      <a href="#/writing/kanji" data-link>🈷 Writing Kanji</a>
+      <a href="#/speaking" data-link>🗣️ Speaking</a>
+      <a href="#/vocab" data-link>📖 Kosakata</a>
+      <a href="#/grammar" data-link>📐 Grammar</a>
+      <a href="#/review" data-link>📊 Review</a>
+      <a href="#/settings" data-link>⚙️ Settings</a>
+    </div>
+  </div>
+  <div id="mobileNavOverlay" class="mobile-nav-overlay"></div>
+
+  <main id="app" class="app-main" tabindex="-1" aria-live="polite"></main>
+
+  <footer class="app-footer">
+    <small>Bahasa: Indonesia + istilah Inggris | Mobile-first | TTS + Speaking | © 2025</small>
+  </footer>
+
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>
